@@ -99,3 +99,27 @@ In m * x + c :
 > y
  [1]  2  4  6  8 10 12 14 16 18 11
 
+# Vector addition
+> vector1=rep(10,10)
+> vector1
+ [1] 10 10 10 10 10 10 10 10 10 10
+> vector2=rep(20,10)
+> vector2
+ [1] 20 20 20 20 20 20 20 20 20 20
+> vector1+vector2
+ [1] 30 30 30 30 30 30 30 30 30 30
+
+ # Vector multiplication
+> vector1*vector2
+ [1] 200 200 200 200 200 200 200 200 200 200
+
+# Vector division
+> vector1/vector2
+ [1] 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+
+#substraction
+> vector1-vector2
+ [1] -10 -10 -10 -10 -10 -10 -10 -10 -10 -10
+
+
+
