@@ -1,5 +1,13 @@
 #Objects in R
 
+#Single values as vector
+> 5
+[1] 5
+> "Hello"
+[1] "Hello"
+> TRUE
+[1] TRUE
+
 #check class of an Object using class() function
 > numericVector<-rep(1,10)
 > numericVector
@@ -59,4 +67,35 @@ character(0)
 > numericVector<-c(1,2,rep(0,10),seq(1,5,1),15:25)
 > numericVector
  [1]  1  2  0  0  0  0  0  0  0  0  0  0  1  2  3  4  5 15 16 17 18 19 20 21 22 23 24 25
+
+#repeating a smaller vector
+> x<-seq(1,10)
+> x
+ [1]  1  2  3  4  5  6  7  8  9 10
+> c<-1
+> c
+[1] 1
+> m<-1
+> m
+[1] 1
+> y<-m*x+c
+> y
+[1]  2  3  4  5  6  7  8  9 10 11
+
+#issues with smaller vector
+> x<-seq(1,10)
+> x
+ [1]  1  2  3  4  5  6  7  8  9 10
+> c<-seq(1,9)
+> c
+[1] 1 2 3 4 5 6 7 8 9
+> m<-1
+> m
+[1] 1
+> y<-m*x+c
+Warning message:
+In m * x + c :
+  longer object length is not a multiple of shorter object length
+> y
+ [1]  2  4  6  8 10 12 14 16 18 11
 
