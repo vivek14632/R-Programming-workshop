@@ -39,6 +39,7 @@ character(0)
 > characterVector
 [1] "xyz" "abc" "def"
 
+#Creating vector using rep() function
 > numericVector<-rep(1,10)
 > numericVector
  [1] 1 1 1 1 1 1 1 1 1 1
