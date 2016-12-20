@@ -12,7 +12,6 @@
 #check class of data frame
 > class(y)
 [1] "data.frame"
-> 
 
 #check column names
 > names(y)
@@ -24,3 +23,19 @@
 > names(y)[1]<-"column1"
 > names(y)
 [1] "column1" "X2"      "X3"      "X4"      "X5" 
+
+#creating data frame from columns
+> zz<-data.frame(col1=rep(1,10),col2=rep(10:10))
+> zz
+   col1 col2
+1     1   10
+2     1   10
+3     1   10
+4     1   10
+5     1   10
+6     1   10
+7     1   10
+8     1   10
+9     1   10
+10    1   10
+
