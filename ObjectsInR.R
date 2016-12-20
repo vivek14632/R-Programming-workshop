@@ -55,4 +55,8 @@ character(0)
 > numericVector
 [1] 1 2 3 4 5
 
+#combining different functions to create a numeric vector
+> numericVector<-c(1,2,rep(0,10),seq(1,5,1),15:25)
+> numericVector
+ [1]  1  2  0  0  0  0  0  0  0  0  0  0  1  2  3  4  5 15 16 17 18 19 20 21 22 23 24 25
 
