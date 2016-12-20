@@ -63,7 +63,11 @@
 > z1[1,]
 [1]  1  2  3  4  5 16
 
-#accessing 
+#accessing a column
 > z[,1]
 [1]  1  6 11
+
+#accessing an element from matrix
+> z1[2,3]
+[1] 8
 
