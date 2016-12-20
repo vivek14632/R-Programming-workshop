@@ -1,1 +1,1 @@
-# R-workshop
+# R-Programming workshop
