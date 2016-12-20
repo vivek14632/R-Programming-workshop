@@ -47,3 +47,23 @@
 [2,]    6    7    8    9   10   17
 [3,]   11   12   13   14   15   18
 
+#accessing values - the matrix can be accessed like a vector
+> z1[1]
+[1] 1
+> z1[2]
+[1] 6
+> z1[3]
+[1] 11
+> z1[4]
+[1] 2
+> z1[5]
+[1] 7
+
+#accessing a row
+> z1[1,]
+[1]  1  2  3  4  5 16
+
+#accessing 
+> z[,1]
+[1]  1  6 11
+
