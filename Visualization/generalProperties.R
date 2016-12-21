@@ -77,6 +77,10 @@ plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty
 #plot without box
 plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='n')
 
+#change the axis scale
+#  lab=c(x-axis scale, y-axis scale, length)
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,100,1000))
+
 
 
 
