@@ -41,3 +41,49 @@ list()
 > L2[[2]][2]
 [1] "b"
 
+#creating list with names of elements
+> L3=list(vector1=vector1,vector2=vector2)
+> L3
+$vector1
+ [1] 1 1 1 1 1 1 1 1 1 1
+
+$vector2
+[1] "a" "b" "c" "d" "e"
+
+> L3$vector1
+ [1] 1 1 1 1 1 1 1 1 1 1
+
+#storing matrix in a list
+> mat1<-matrix(seq(1:10),2,5)
+> mat1
+     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    3    5    7    9
+[2,]    2    4    6    8   10
+> L4=list(vector1=vector1,mat1=mat1)
+> L4
+$vector1
+ [1] 1 1 1 1 1 1 1 1 1 1
+
+$mat1
+     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    3    5    7    9
+[2,]    2    4    6    8   10
+
+#storing a data frame in a list
+> mat2<-data.frame(mat1)
+> mat2
+  X1 X2 X3 X4 X5
+1  1  3  5  7  9
+2  2  4  6  8 10
+> L4=list(vector1=vector1,mat2=mat2)
+> L4
+$vector1
+ [1] 1 1 1 1 1 1 1 1 1 1
+
+$mat2
+  X1 X2 X3 X4 X5
+1  1  3  5  7  9
+2  2  4  6  8 10
+ 
+ 
+
