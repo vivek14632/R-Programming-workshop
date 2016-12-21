@@ -121,5 +121,10 @@ In m * x + c :
 > vector1-vector2
  [1] -10 -10 -10 -10 -10 -10 -10 -10 -10 -10
 
+#accessing an element in a vector
+> x<-c(1,2,3,4,5,9)
+> x[4]
+[1] 4
+
 
 
