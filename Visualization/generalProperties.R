@@ -88,6 +88,16 @@ plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty
 > plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,20,100),las=2)
 > plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,20,100),las=3)
 
+#Multiple plots in R
+
+#The following plot has one row and two columns
+par(mfrow=c(1,2))
+plot(Cars93$Max.Price,main="Max Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=1)
+plot(Cars93$Min.Price,main="Min Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2)
+#Revert back to original
+par(mfrow=c(1,1))
+
+
 
 
 
