@@ -23,6 +23,16 @@ package ‘MASS’ was built under R version 3.3.2
 #Density plot
 > plot(density(Cars93$Weight,width = 500),main = "Density plot")
 
+#plot points
+> plot(Cars93$Min.Price)
+#plot lines
+> plot(Cars93$Min.Price,type='l')
+#plot lines and points - 'both'
+> plot(Cars93$Min.Price,type='b')
 
 
+#plotting multiple lines in same plot
+> plot(Cars93$Min.Price,type='b',ylim = c(0,100),ylab = 'Price')
+> lines(Cars93$Max.Price,type='b',col='red')
+> legend('topleft',c('Min price','Max Price'),pch = c(1,1),col = c('black','red'))
 
