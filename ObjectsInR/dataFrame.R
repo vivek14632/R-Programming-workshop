@@ -42,3 +42,14 @@
 #row names of a data frame
 > row.names(zz)
  [1] "1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10"
+
+#access a set of rows
+> zz[1:5,]
+  col1 col2
+1    1   10
+2    1   10
+3    1   10
+4    1   10
+5    1   10
+
+
