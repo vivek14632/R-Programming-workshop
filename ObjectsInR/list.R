@@ -89,6 +89,14 @@ $mat2
 > length(L4)
 [1] 2
 
-
+#names of elements
+> names(L4)
+[1] "vector1" "mat2" 
  
+#change names of list elements
+> names(L4)[2]<-'mat'
+> names(L4)
+[1] "vector1" "mat"  
+
+
 
