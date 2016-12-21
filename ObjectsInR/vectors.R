@@ -139,6 +139,10 @@ In m * x + c :
 > all(x==3)
 [1] FALSE
 
+> x<-c(4,7,9,10,15)
+#get index of a number
+> which(x==9)
+[1] 3
 
 
 
