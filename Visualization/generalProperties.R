@@ -40,6 +40,12 @@ plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b')
 points(Cars93$Min.Price,type = 'b',pch=0,col='red')
 legend('topright',c('Minimum price','Maximum Price'),pch = c(1,0),col=c('black','red'))
 
+#changing the line type
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2)
+lines(Cars93$Min.Price,type = 'b',pch=0,col='red',lty=3)
+legend('topright',c('Minimum price','Maximum Price'),pch = c(1,0),col=c('black','red'),lty = c(2,3))
+
+
 
 
 
