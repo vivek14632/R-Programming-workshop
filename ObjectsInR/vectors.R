@@ -33,6 +33,10 @@
 > logicalVecor1
 [1]  TRUE FALSE FALSE
 
+#count number of TRUE in a logical vector
+> sum(logicalVecor1)
+[1] 1
+
 #Creating a vector dynamically
 > characterVector<-vector(mode = "character")
 > characterVector
