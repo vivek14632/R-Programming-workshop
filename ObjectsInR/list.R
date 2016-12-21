@@ -33,3 +33,10 @@ list()
 [[2]]
 [1] "a" "b" "c" "d" "e"
 
+#accessing an element in the list
+> L2[[2]]
+[1] "a" "b" "c" "d" "e"
+
+> L2[[2]][2]
+[1] "b"
+
