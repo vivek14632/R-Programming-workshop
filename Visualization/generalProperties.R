@@ -34,6 +34,12 @@ axis(side=4,labels = T,tick = T,line = .001)
 #shift the position of the axis
 axis(side=4,labels = T,tick = T,line = .001,pos = 80)
 
+#character type for points
+#http://www.statmethods.net/advgraphs/parameters.html
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b')
+points(Cars93$Min.Price,type = 'b',pch=0,col='red')
+legend('topright',c('Minimum price','Maximum Price'),pch = c(1,0),col=c('black','red'))
+
 
 
 
