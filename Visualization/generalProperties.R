@@ -55,6 +55,28 @@ mtext('Price',side = 4,line = 1)
 plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = F)
 plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T)
 
+#bty is used to control the box around the plot
+#L shaped box
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='l')
+
+#complete box
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='o')
+
+#box in shape of '7'
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7')
+
+#box in shape of 'C'
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='c')
+
+#box in shape of U
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='u')
+
+#box in shape of ]
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty=']')
+
+#plot without box
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='n')
+
 
 
 
