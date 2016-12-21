@@ -81,6 +81,13 @@ plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty
 #  lab=c(x-axis scale, y-axis scale, length)
 plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,100,1000))
 
+#style of axis label , 'las' parameter
+
+> plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,20,100),las=0)
+> plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,20,100),las=1)
+> plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,20,100),las=2)
+> plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T,bty='7',lab=c(10,20,100),las=3)
+
 
 
 
