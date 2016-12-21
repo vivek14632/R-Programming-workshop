@@ -52,4 +52,32 @@
 4    1   10
 5    1   10
 
+#updating all values of a column
+> zz[,'col1']<-5
+> zz
+   col1 col2
+1     5   10
+2     5   10
+3     5   10
+4     5   10
+5     5   10
+6     5   10
+7     5   10
+8     5   10
+9     5   10
+10    5   10
+
+#issues with vectors of different length
+   col1 col2
+1     7   10
+2     2   10
+3     7   10
+4     2   10
+5     7   10
+6     2   10
+7     7   10
+8     2   10
+9     7   10
+10    2   10
+
 
