@@ -1,4 +1,5 @@
 #create a numeric vector
+> vector1<-rep(1,10)
 > vector1
  [1] 1 1 1 1 1 1 1 1 1 1
 
