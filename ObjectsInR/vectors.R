@@ -153,4 +153,16 @@ In m * x + c :
 [1]   8  17  17  10 100
 > 
 
-
+> x
+[1]   8  17  17  10 100
+> x>10
+[1] FALSE  TRUE  TRUE FALSE  TRUE
+> which(x>10)
+[1] 2 3 5
+> any(x>10)
+[1] TRUE
+> all(x>10)
+[1] FALSE
+> sum(x>10)
+[1] 3
+> 
