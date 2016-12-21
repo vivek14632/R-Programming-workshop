@@ -51,6 +51,10 @@ lines(Cars93$Min.Price,type = 'b',pch=0,col='red',lty=3)
 legend('topright',c('Minimum price','Maximum Price'),pch = c(1,0),col=c('black','red'),lty = c(2,3))
 mtext('Price',side = 4,line = 1)
 
+#plot without axis
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = F)
+plot(Cars93$Max.Price,main="Price",ylab = 'Price',ylim = c(1,100),type = 'b',lty=2,axes = T)
+
 
 
 
