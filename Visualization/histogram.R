@@ -24,3 +24,5 @@ hist(Cars93$Max.Price,main='Histogram example',xlab = 'Price',col='blue')
 hist(Cars93$Max.Price,main='Histogram example',xlab = 'Price',border = 10)
 
 
+
+
