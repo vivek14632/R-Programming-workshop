@@ -36,3 +36,9 @@ package ‘MASS’ was built under R version 3.3.2
 > lines(Cars93$Max.Price,type='b',col='red')
 > legend('topleft',c('Min price','Max Price'),pch = c(1,1),col = c('black','red'))
 
+#overlaying the text on graph
+> plot(Cars93$MPG.highway[1:5],Cars93$Price[1:5])
+> text(Cars93$MPG.highway[1:5],Cars93$Price[1:5],Cars93$Make[1:5],cex = 1,pos = 4)
+
+
+
