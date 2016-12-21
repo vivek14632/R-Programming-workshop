@@ -20,5 +20,23 @@ plot(Cars93$Min.Price,type='b',ylab = 'your y-axis label',xlab='your x-axis labe
 axis(side = 3)
 axis(side = 4)
 
+#To add axis without lebels
+axis(side=3,labels = F)
+axis(side=4,labels = F)
+
+#To add axis without ticks
+axis(side=3,tick = F)
+axis(side=4,tick = F)
+
+#manage the distance between axis and label
+axis(side=4,labels = T,tick = T,line = .001)
+
+#shift the position of the axis
+axis(side=4,labels = T,tick = T,line = .001,pos = 80)
+
+
+
+
+
 
 
