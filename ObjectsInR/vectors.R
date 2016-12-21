@@ -126,5 +126,20 @@ In m * x + c :
 > x[4]
 [1] 4
 
+#indexing vector
+> x
+ [1]  1  2  3  4  5  6  7  8  9 10
+> x==3
+ [1] FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+
+#any() and all() function
+> any(x==3)
+[1] TRUE
+
+> all(x==3)
+[1] FALSE
+
+
+
 
 
