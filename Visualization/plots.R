@@ -20,6 +20,7 @@ package ‘MASS’ was built under R version 3.3.2
 [17] "Fuel.tank.capacity" "Passengers"         "Length"             "Wheelbase"          "Width"              "Turn.circle"        "Rear.seat.room"     "Luggage.room"      
 [25] "Weight"             "Origin"             "Make"              
 
+#Density plot
 > plot(density(Cars93$Weight,width = 500),main = "Density plot")
 
 
