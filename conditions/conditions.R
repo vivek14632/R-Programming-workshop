@@ -10,3 +10,12 @@
 +   print("nothing")
 + }
 [1] "ten"
+
+  
+> ifelse(x<5,"yes","no")
+[1] "no"
+> ifelse(x<5,0,1)
+[1] 1
+  
+  
+  
