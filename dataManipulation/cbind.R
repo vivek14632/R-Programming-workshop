@@ -1,6 +1,19 @@
-
-age=seq(11,20,1)
-age
-m_name=letters[1:10]
-m_name
-cbind(m_name,age)
+> age=seq(11,20,1)
+> age
+ [1] 11 12 13 14 15 16 17 18 19 20
+> m_name=letters[1:10]
+> m_name
+ [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j"
+> cbind(m_name,age)
+      m_name age 
+ [1,] "a"    "11"
+ [2,] "b"    "12"
+ [3,] "c"    "13"
+ [4,] "d"    "14"
+ [5,] "e"    "15"
+ [6,] "f"    "16"
+ [7,] "g"    "17"
+ [8,] "h"    "18"
+ [9,] "i"    "19"
+[10,] "j"    "20"
+> 
