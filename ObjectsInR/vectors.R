@@ -170,3 +170,10 @@ In m * x + c :
 > sum(x>10)
 [1] 3
 > 
+
+#complex numbers
+> xx<-1+2i
+> xx*xx
+[1] -3+4i
+
+
