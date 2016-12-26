@@ -31,3 +31,7 @@ female   male
 1  1  2  3
 2  4  5  6
 3  7  8  9
+
+#write to file
+mdata=read.csv('https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Titanic.csv')
+write.csv(mdata,file = 'titanic1.csv',row.names = F)
