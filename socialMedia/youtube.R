@@ -27,3 +27,6 @@ m_caption<- get_captions(video_id="yJXTXN4xrI8")
 library('XML')
 m_caption1<-xmlParse(m_caption)
 m_caption2<-xmlToList(m_caption1)
+
+library('stringr')
+str_count(m_caption2[[1]]$text,'\\w+')
