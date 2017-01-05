@@ -4,12 +4,12 @@ Chapters:
 
 1. Objects in R
 2. Conditionals
-3. TextMining	
-4. Loops	
-5. Functions
-6. File Input Output
-7. Data Transformations
-8. Data Manipulation
+3. Loops	
+4. Functions
+5. File Input Output
+6. Data Transformations
+7. Data Manipulation
+8. TextMining	
 9. Datasets in R
 10. Visualization	
 11. R packages
