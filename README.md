@@ -2,6 +2,7 @@
 
 Chapters:
 1. Objects in R
+
 2. Conditionals
 3. TextMining	
 4. Loops	
