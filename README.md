@@ -15,6 +15,7 @@ Chapters:
 11. R packages
 
 Optional 	
+
 12. Database Connection - MySQL
 13. Distributions
 14. Maths	
