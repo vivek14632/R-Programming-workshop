@@ -1,0 +1,16 @@
+#JSON: Javascript Object Notation
+
+{
+"BOB":
+  {
+    "age":"21"
+    "state":"FL"
+    "country":"USA"
+  }
+}
+
+
+install.packages('RJSONIO',dependencies=T)
+library('RJSONIO')
+
+m_data<-fromJSON(content="file.json")
