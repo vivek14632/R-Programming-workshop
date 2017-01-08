@@ -13,6 +13,7 @@ Chapters:
 9. Datasets in R
 10. Visualization	
 11. R packages
+12. Workspace
 
 Optional 	
 
