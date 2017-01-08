@@ -1,8 +1,1 @@
-{
-"BOB":
-  {
-    "age":"21",
-    "state":"FL",
-    "country":"USA"
-  }
-}
+{"BOB":{"age":"21","state":"FL","country":"USA"}}
