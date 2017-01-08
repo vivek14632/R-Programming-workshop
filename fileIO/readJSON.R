@@ -3,8 +3,8 @@
 {
 "BOB":
   {
-    "age":"21"
-    "state":"FL"
+    "age":"21",
+    "state":"FL",
     "country":"USA"
   }
 }
