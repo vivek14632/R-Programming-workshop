@@ -12,4 +12,5 @@ vivek>5/3
 [1] 1.667
 vivek>
 
+# Note: The rounding is performed on the final outcome and not on the intermediate steps.
 
