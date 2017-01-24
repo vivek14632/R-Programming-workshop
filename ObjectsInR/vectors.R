@@ -1,13 +1,21 @@
 #Objects in R
 
-#Single values as vector
+#Single values are treated as vectors
 > 5
 [1] 5
 > "Hello"
 [1] "Hello"
 > TRUE
 [1] TRUE
-
+#creating a variable with single value
+> x=5
+# a single variable is stored as a vector of length 1
+> x
+[1] 5
+> x[1]
+[1] 5
+> class(x)
+[1] "numeric"
 #check class of an Object using class() function
 > numericVector<-rep(1,10)
 > numericVector
@@ -72,7 +80,7 @@ character(0)
 > numericVector
  [1]  1  2  0  0  0  0  0  0  0  0  0  0  1  2  3  4  5 15 16 17 18 19 20 21 22 23 24 25
 
-#repeating a smaller vector
+#repeating a smaller vector- benefits
 > x<-seq(1,10)
 > x
  [1]  1  2  3  4  5  6  7  8  9 10
@@ -86,7 +94,7 @@ character(0)
 > y
 [1]  2  3  4  5  6  7  8  9 10 11
 
-#issues with smaller vector
+#issues with smaller vector - challenges
 > x<-seq(1,10)
 > x
  [1]  1  2  3  4  5  6  7  8  9 10
@@ -130,7 +138,7 @@ In m * x + c :
 > x[4]
 [1] 4
 
-#indexing vector
+#indexing a vector
 > x
  [1]  1  2  3  4  5  6  7  8  9 10
 > x==3
