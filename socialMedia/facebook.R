@@ -38,4 +38,3 @@ analysis=as.data.frame(cbind(likes=fb_page$likes_count,
                                                  ))
 
 
-
