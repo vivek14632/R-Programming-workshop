@@ -12,3 +12,8 @@ ncol(data1$img)
 [1] 512
 > image(data1$img)
 > image(data1$img)
+
+#Plot data in grey scale
+image(t(data1$img), col=grey(0:64/64), axes=FALSE, xlab="", ylab="")
+
+
