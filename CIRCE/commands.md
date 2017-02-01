@@ -2,6 +2,8 @@
 
 login to circe.rc.usf.edu using USF NETID and password (use putty or any other ssh client)
 
+To create new account: visit http://www.usf.edu/it/research-computing/what-is-rc/comp_resources.aspx and click on "Cluster Web Access pages" OR visit https://cwa.rc.usf.edu/
+
 sbatch ./test.sh
 
 Other useful links
