@@ -1,13 +1,13 @@
 library('RMySQL')
 
-connection1<-dbConnect(MySQL(), user='mysql_uername',password='mysql_password',
-                       db_name='sakila',host='localhost')
+connection1<-dbConnect(MySQL(), user='bootcamp',password='****',
+                       db_name='db',host='db.cxaizxz7riof.us-west-2.rds.amazonaws.com')
 
-sql='select * from actor'
-rs <- dbSendQuery(connection1, 'select * from sakila.actor')
-data1 <- fetch(rs, n=10)
+
+rs <- dbSendQuery(connection1, 'select * from db.registration')
+data1 <- fetch(rs, n=-1)
 data1
 dbClearResult(rs)
 
-sql="insert into sakila.actor values('201','abc','xyz','2006-02-15 04:34:33')"
+sql="insert into db.registration values('3','vivek')"
 rs <- dbSendQuery(connection1, sql)
