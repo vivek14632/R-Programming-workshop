@@ -1,6 +1,10 @@
-##read data from excel file
+# read data from excel file with header
 m_data<-read.table('clipboard',header=T)
 
+# read data from excel file without header
+m_data<-read.table('clipboard',header=F)
+
+#write data to clipboard
 write.table(m_data,file='clipboard')
 
 #read from a webpage
