@@ -16,4 +16,7 @@ qplot(carat,price,data = diamonds,shape=cut)
 #plot with different sizes
 qplot(carat,price,data = diamonds,size=depth)
 
+#To find the location of the majority of points
+qplot(carat,price,data=diamonds,alpha=I(1/100))
+
 
