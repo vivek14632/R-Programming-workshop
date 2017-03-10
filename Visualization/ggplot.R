@@ -13,3 +13,7 @@ qplot(carat,price,data = diamonds,colour=cut)
 #plot with different shapes
 qplot(carat,price,data = diamonds,shape=cut)
 
+#plot with different sizes
+qplot(carat,price,data = diamonds,size=depth)
+
+
