@@ -56,7 +56,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-#Installing package in a local folder
+# Installing package in a local folder
 
 >  install.packages('oro.nifti', repos="http://cran.r-project.org")
 
