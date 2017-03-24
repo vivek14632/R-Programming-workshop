@@ -20,4 +20,6 @@ Warning in install.packages :
 Removing package from ‘C:/Users/ThinkPad/Documents/R/win-library/3.3’
 (as ‘lib’ is unspecified)
     
-    
+ 
+ #loading library from the local directory
+ library('oro.dicom',lib.loc='~/R_libs/')
