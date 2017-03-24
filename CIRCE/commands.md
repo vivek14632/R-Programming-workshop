@@ -56,5 +56,41 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+#Installing package in a local folder
+
+>  install.packages('oro.nifti', repos="http://cran.r-project.org")
+
+Warning in install.packages("oro.nifti", repos = "http://cran.r-project.org") :
+
+'lib = "/apps/R/3.1.2/lib64/R/library"' is not writable
+
+Would you like to use a personal library instead?  (y/n) y
+
+Would you like to create a personal library
+
+~/R/x86_64-unknown-linux-gnu-library/3.1
+
+to install packages into?  (y/n) n
+
+Error in install.packages("oro.nifti", repos = "http://cran.r-project.org") :
+  unable to install packages
+>  install.packages('oro.nifti', repos="http://cran.r-project.org")
+
+Warning in install.packages("oro.nifti", repos = "http://cran.r-project.org") :
+
+'lib = "/apps/R/3.1.2/lib64/R/library"' is not writable
+
+Would you like to use a personal library instead?  (y/n) y
+
+Would you like to create a personal library
+~/R/x86_64-unknown-linux-gnu-library/3.1
+to install packages into?  (y/n) y
+also installing the dependency ‘RNifti’
+
+trying URL 'http://cran.r-project.org/src/contrib/RNifti_0.5.0.tar.gz'
+Content type 'application/x-gzip' length 639060 bytes (624 Kb)
+opened URL
+==================================================
+downloaded 624 Kb
 
 
