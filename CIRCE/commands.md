@@ -32,8 +32,11 @@ https://wiki.rc.usf.edu/index.php/R_and_Rmpi
 
 To Run R on circe
 [vivek4@itn3 lungcancerscripts]$ module purge
+
 [vivek4@itn3 lungcancerscripts]$ module add apps/R/3.1.2
+
 [vivek4@itn3 lungcancerscripts]$ R
+
 
 R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
 Copyright (C) 2014 The R Foundation for Statistical Computing
