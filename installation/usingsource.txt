@@ -1,1 +1,30 @@
 https://www.r-bloggers.com/installing-r-on-ubuntu/
+
+sudo apt-get install gfortran
+sudo apt-get install build-essential
+
+# all the version 3 can be obtained from the following link
+
+https://cran.r-project.org/src/base/R-3/
+
+wget https://cran.r-project.org/src/base/R-3/R-3.4.0.tar.gz
+
+tar -xzf R-3.4.0.tar.gz
+
+cd R-3.4.0/
+
+./configure
+make
+
+sudo make install
+cd ..
+
+mv R-3.4.0 /usr/bin
+
+cd /usr/bin/R-3.4.0/
+
+R
+
+
+
+
