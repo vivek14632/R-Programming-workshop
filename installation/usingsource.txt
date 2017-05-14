@@ -17,14 +17,6 @@ cd R-3.4.0/
 make
 
 sudo make install
-cd ..
-
-mv R-3.4.0 /usr/bin
-
-cd /usr/bin/R-3.4.0/
-
-R
-
 
 
 
