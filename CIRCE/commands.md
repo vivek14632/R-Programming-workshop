@@ -30,7 +30,7 @@ R documentation
 https://wiki.rc.usf.edu/index.php/R_and_Rmpi
 
 
-To Run R on circe
+# To Run R on circe
 [vivek4@itn3 lungcancerscripts]$ module purge
 
 [vivek4@itn3 lungcancerscripts]$ module add apps/R/3.1.2
