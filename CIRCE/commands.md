@@ -87,10 +87,18 @@ Would you like to create a personal library
 to install packages into?  (y/n) y
 also installing the dependency ‘RNifti’
 
-trying URL 'http://cran.r-project.org/src/contrib/RNifti_0.5.0.tar.gz'
-Content type 'application/x-gzip' length 639060 bytes (624 Kb)
-opened URL
 ==================================================
 downloaded 624 Kb
+
+# git on CIRCE
+
+one after cloning the repository, change the URL in the config file
+from  url = https://github.com
+to url = https://vivek14632@github.com
+
+also, add your email 
+
+git config user.email "vksingh.iiitb@gmail.com"
+
 
 
