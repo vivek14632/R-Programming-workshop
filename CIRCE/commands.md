@@ -100,5 +100,17 @@ also, add your email
 
 git config user.email "vksingh.iiitb@gmail.com"
 
+# Check apps installed on the circe
+[vivek4@itn0 apps]$ pwd
+/apps
+
+check different versions of R installed on the circe
+
+[vivek4@itn0 R]$ pwd
+/apps/R
+[vivek4@itn0 R]$ ls
+2.15.3  3.0.3  3.1.2  3.2.3  3.3.2  3.4.0  backup  old_3.3.2
+
+
 
 
