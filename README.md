@@ -1,6 +1,17 @@
-# R-Programming Workshop
+# 3rd R-Programming Bootcamp
 
-Chapters:
+## Schedule
+TBA
+
+## Instructor
+
+Vivek Singh
+Doctoral Student
+Information Systems Decison Sciences,
+MUMA College of Business,
+USF, FL.
+
+## Syllabus
 
 1. Objects in R
 2. Conditionals
@@ -21,3 +32,11 @@ Optional
 13. Distributions
 14. Maths	
 15. Social Media
+
+## Software
+
+Following are the prerequisites for R Bootcamp:
+Download and install R: https://www.r-project.org/
+Download and install R Studio: https://www.rstudio.com/
+
+## FAQ
