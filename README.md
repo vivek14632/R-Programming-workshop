@@ -40,7 +40,9 @@ Optional
 ## Software
 
 Following are the prerequisites for R Bootcamp:
+
 Download and install R: https://www.r-project.org/
+
 Download and install R Studio: https://www.rstudio.com/
 
 ## FAQ
