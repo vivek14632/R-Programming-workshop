@@ -6,9 +6,13 @@ TBA
 ## Instructor
 
 Vivek Singh
+
 Doctoral Student
+
 Information Systems Decison Sciences,
+
 MUMA College of Business,
+
 USF, FL.
 
 ## Syllabus
