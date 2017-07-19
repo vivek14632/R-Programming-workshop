@@ -1,4 +1,4 @@
-# 3rd R-Programming Bootcamp
+# Third R-Programming Bootcamp
 
 ## Schedule
 TBA
