@@ -1,7 +1,7 @@
 # Third R-Programming Bootcamp
 
 ## Schedule
-TBA
+August 18, 2017
 
 ## Instructor
 
