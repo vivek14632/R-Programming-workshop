@@ -1,7 +1,4 @@
-# Third R-Programming Bootcamp
-
-## Schedule
-August 18, 2017
+# R-Programming Bootcamp
 
 ## Instructor
 
@@ -45,11 +42,5 @@ Download and install R: https://www.r-project.org/
 
 Download and install R Studio: https://www.rstudio.com/
 
-## FAQ
 
-## Previous R-Bootcamps
-
-1st R Bootcamp [January 27, 2017]
-
-2nd R Bootcamp [February 17, 2017]
 
