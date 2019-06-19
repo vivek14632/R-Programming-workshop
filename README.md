@@ -1,18 +1,15 @@
-# R-Programming Bootcamp
+# R-Programming Tutorial
 
 ## Instructor
 
 Vivek Singh
 
-Doctoral Student
+Adjunct Assistant Professor
+College of Business Administration
+University of Missouri -- St. Louis, MO
 
-Information Systems Decison Sciences,
 
-MUMA College of Business,
-
-USF, FL.
-
-## Syllabus
+## Topics
 
 1. Objects in R
 2. Conditionals
