@@ -2,10 +2,12 @@
 
 ## Instructor
 
-Vivek Singh
+Vivek K. Singh
 
 Adjunct Assistant Professor
+
 College of Business Administration
+
 University of Missouri -- St. Louis, MO
 
 
