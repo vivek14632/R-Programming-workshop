@@ -4,7 +4,7 @@
 
 Vivek K. Singh
 
-Adjunct Assistant Professor
+Assistant Professor
 
 College of Business Administration
 
